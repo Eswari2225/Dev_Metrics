@@ -1,0 +1,7 @@
+{
+  "leadTime": 3,
+  "cycleTime": 8,
+  "bugRate": 15,
+  "deploys": 4,
+  "prs": 5
+}
