@@ -1,6 +1,7 @@
 # Netlify Configuration for React/Vite App
 
 [build]
+  base = "."
   command = "npm run build"
   publish = "dist"
 
