@@ -1,7 +1,7 @@
 # Netlify Configuration for React/Vite App
+# (Root-level netlify.toml takes precedence - this is backup)
 
 [build]
-  base = "."
   command = "npm run build"
   publish = "dist"
 

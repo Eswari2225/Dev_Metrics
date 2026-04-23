@@ -1,0 +1,13 @@
+# Root-level Netlify Configuration
+# This tells Netlify where to find the actual project
+
+[build]
+  base = "dev-metrics"
+  command = "npm run build"
+  publish = "dev-metrics/dist"
+
+# Redirect all routes to index.html for React Router
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
